@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.1' 
+VERSION = '1.1'
 DESCRIPTION = 'Simple Python Linux/Ubuntu Notify Package'
 LONG_DESCRIPTION = '''
 # uNotify
