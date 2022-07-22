@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unotify"
+version = "1.0"
+authors = [
+  { name="Gowixx", email="ItsGowixx@gmail.com" },
+]
+description = "Simple Notify Package for Ubuntu/Linux"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gowixx/unotify"
+"Bug Tracker" = "https://github.com/gowixx/unotify/issues"
