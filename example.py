@@ -5,8 +5,9 @@ import unotify
 
 unotify.notify(
     title = 'Testing',
-    description = 'uNotify example.',
+    message = 'uNotify example.',
     urgency = unotify.urgencies.NORMAL,
     timeout = 10,
-    icon = 'edit-undo'
+    app_name = 'Testing',
+    app_icon = 'edit-undo'
 )
