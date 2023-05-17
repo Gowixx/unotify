@@ -15,10 +15,7 @@ def _get_urgency(number: int) -> str:
         2: 'normal',
         3: 'critical'
     }
-    try:
-        return URGENCIES[number]
-    except Exception:
-        return URGENCIES[2]
+    return URGENCIES.get(number, "normal")
 
 def _close_notification(number: int):
     call(['dbus-send',
